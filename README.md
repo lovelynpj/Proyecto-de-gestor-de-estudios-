@@ -1,4 +1,4 @@
-# Proyecto-de-gestor-de-estudios-
+# Booking
 futura pagina para gestor de estudios 
 
 COSAS A TENER EN CUENTA PARA HACER A Booking:
