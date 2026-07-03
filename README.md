@@ -1,6 +1,6 @@
 # Booking
 futura pagina para gestor de estudios 
-
+-------------------------------------------
 COSAS A TENER EN CUENTA PARA HACER A Booking:
 
 barra de navegacion a la izquierda
@@ -33,11 +33,12 @@ Parciales
 Recordatorios
 Resúmenes
 PDFs
+
 -------------------------------------------
 Secciones por hacer y quien las hace: 
 inicio (Pedro)
-Materias
-Tareas
+Materias 
+Tareas (Bruca)
 Horarios
 Resumenes
-Cuanto falta?
+Cuanto falta? (Bruca)
