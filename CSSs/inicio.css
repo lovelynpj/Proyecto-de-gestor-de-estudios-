@@ -18,13 +18,22 @@
 --Informacion:           #3B82F6; /*--Información*/	 
 }
 
+body {
+    font-family: 'Geist Pixel', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+}
+
 .titulo {
-    color: var(--Text-color);  
+    color: var(--Text-color); 
+    font-family: 'Geist Pixel', sans-serif; 
 
 }
 
 .subtitulo {
     color: var(--Text-secundario);
+    font-family: 'Geist Pixel', sans-serif;
 }
 
 .container{
@@ -39,6 +48,7 @@
     flex-direction:column;
     padding:25px;
     border-right:5px solid rgba(255,255,255,.05);
+    font-family: 'Geist Pixel', sans-serif;
 }
 
 .logo{
@@ -56,10 +66,12 @@
     font-size: 2rem;
     font-weight: bold;
     color: var(--Text-color);
+    font-family: 'Geist Pixel', sans-serif;
 }
 
 .menu{
     width: 100%;
+    font-family: 'Geist Pixel', sans-serif;
 }
 
 .menu ul{
