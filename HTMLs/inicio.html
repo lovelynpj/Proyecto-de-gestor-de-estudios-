@@ -6,14 +6,14 @@
     <title>Booking - Inicio</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../CSSs/inicio.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../Imgs/Logo_Texto.png" type="image/x-icon">
 </head>
 <body>
-    <!-- <h1 class="titulo">Bienvenido a Booking</h1>
-    <h3 class="subtitulo">inicio</h3> -->
     <div class="container">
         <aside class="sidebar">
             <div class="logo">
@@ -31,8 +31,176 @@
                 </ul>
             </nav>
         </aside>
-        <h1 class="titulo">Inicio | </h1>
-        <p class="subtitulo">Aca va el inicio</p>
+        <main class="content">
+            <header class="header-top">
+                <div class="header-textos">
+                    <h1 class="titulo">Hola! #Nombre del estudiante</h1>
+                    <h3 class="subtitulo">Vamos a ver que hay hoy!</h3>
+                </div>
+                <div class="header-acciones">
+                    <div class="buscador">
+                        <span class="material-symbols-outlined">search</span>
+                        <input type="text" placeholder="Buscar...">
+                    </div>
+                    <button class="notificaciones" aria-label="Notificaciones">
+                        <span class="material-symbols-outlined">notifications</span>
+                        <span class="badge">1</span>
+                    </button>
+                </div>
+            </header>
+            <section class="tarjetas tarjetas-stats">
+                <div class="tarjeta stat">
+                    <div class="stat-icono icono-materias">
+                        <span class="material-symbols-outlined">book_2</span>
+                    </div>
+                    <div class="stat-texto">
+                        <p>Materias totales</p>
+                        <h1>#numero de materias totales</h1>
+                        <p>activas</p>
+                    </div>
+                </div>
+                <div class="tarjeta stat">
+                    <div class="stat-icono icono-tareas">
+                        <span class="material-symbols-outlined">assignment</span>
+                    </div>
+                    <div class="stat-texto">
+                        <p>Tareas pendientes</p>
+                        <h1>#numero de tareas pendientes</h1>
+                        <p>por completar</p>
+                    </div>
+                </div>
+            </section>
+            <section class="grid-dashboard">
+                <div class="tarjeta panel tareas-panel">
+                    <div class="panel-header">
+                        <h2>Tareas pendientes</h2>
+                        <a href="tareas.html" class="ver-todas">Ver todas</a>
+                    </div>
+                    <ul class="lista-tareas">
+                        <li>
+                            <span class="tarea-prioridad"></span>
+                            <input type="checkbox">
+                            <div class="tarea-info">
+                                <p class="tarea-nombre">#nombre de tarea 1</p>
+                                <p class="tarea-materia">#materia de tarea 1</p>
+                            </div>
+                            <span class="tarea-fecha">#fecha de entrega 1</span>
+                        </li>
+                        <li>
+                            <span class="tarea-prioridad"></span>
+                            <input type="checkbox">
+                            <div class="tarea-info">
+                                <p class="tarea-nombre">#nombre de tarea 2</p>
+                                <p class="tarea-materia">#materia de tarea 2</p>
+                            </div>
+                            <span class="tarea-fecha">#fecha de entrega 2</span>
+                        </li>
+                        <li>
+                            <span class="tarea-prioridad"></span>
+                            <input type="checkbox">
+                            <div class="tarea-info">
+                                <p class="tarea-nombre">#nombre de tarea 3</p>
+                                <p class="tarea-materia">#materia de tarea 3</p>
+                            </div>
+                            <span class="tarea-fecha">#fecha de entrega 3</span>
+                        </li>
+                        <li>
+                            <span class="tarea-prioridad"></span>
+                            <input type="checkbox">
+                            <div class="tarea-info">
+                                <p class="tarea-nombre">#nombre de tarea 4</p>
+                                <p class="tarea-materia">#materia de tarea 4</p>
+                            </div>
+                            <span class="tarea-fecha">#fecha de entrega 4</span>
+                        </li>
+                    </ul>
+                    <button class="nueva-tarea">+ Nueva tarea</button>
+                </div>
+                <div class="tarjeta panel calendario-panel">
+                    <div class="panel-header calendario-nav">
+                        <button class="nav-mes" id="mes-anterior" aria-label="Mes anterior">‹</button>
+                        <h2 id="calendario-titulo">Mes y año</h2>
+                        <button class="nav-mes" id="mes-siguiente" aria-label="Mes siguiente">›</button>
+                    </div>
+                    <div class="calendario-dias-semana">
+                        <span>LUN</span><span>MAR</span><span>MIÉ</span><span>JUE</span><span>VIE</span><span>SÁB</span><span>DOM</span>
+                    </div>
+                    <div class="calendario-grid" id="calendario-grid">
+                    </div>
+                </div>
+                <div class="tarjeta panel prueba-panel">
+                    <div class="panel-header">
+                        <h2>Próximas Pruebas</h2>
+                    </div>
+                    <ul class="lista-pruebas">
+                        <li>
+                            <div class="prueba-info">
+                                <p class="prueba-materia">Prueba 1</p>
+                                <p class="prueba-tema">tema de prueba 1</p>
+                                <p class="prueba-restante">dias restantes 1</p>
+                            </div>
+                            <span class="prueba-fecha">fecha de prueba 1</span>
+                        </li>
+                        <li>
+                            <div class="prueba-info">
+                                <p class="prueba-materia">Prueba 2</p>
+                                <p class="prueba-tema">tema de prueba 2</p>
+                                <p class="prueba-restante">dias restantes 2</p>
+                            </div>
+                            <span class="prueba-fecha">fecha de prueba 2</span>
+                        </li>
+                        <li>
+                            <div class="prueba-info">
+                                <p class="prueba-materia">Prueba 3</p>
+                                <p class="prueba-tema">tema de prueba 3</p>
+                                <p class="prueba-restante">dias restantes 3</p>
+                            </div>
+                            <span class="prueba-fecha">fecha de prueba 3</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="ver-todas ver-todas-pruebas">Ver todas las pruebas</a>
+                </div>
+            </section>
+            <section class="tarjeta panel materias-panel">
+                <div class="panel-header">
+                    <h2>Materias</h2>
+                    <a href="materias.html" class="ver-todas">Ver todas</a>
+                </div>
+                <ul class="lista-materias">
+                    <li>
+                        <span class="materia-icono"></span>
+                        <span class="materia-nombre">#nombre de materia 1</span>
+                        <div class="materia-barra"><div class="materia-progreso" style="width: 1%;"></div></div>
+                        <span class="materia-porcentaje">1%</span>
+                    </li>
+                    <li>
+                        <span class="materia-icono"></span>
+                        <span class="materia-nombre">#nombre de materia 2</span>
+                        <div class="materia-barra"><div class="materia-progreso" style="width: 2%;"></div></div>
+                        <span class="materia-porcentaje">2%</span>
+                    </li>
+                    <li>
+                        <span class="materia-icono"></span>
+                        <span class="materia-nombre">#nombre de materia 3</span>
+                        <div class="materia-barra"><div class="materia-progreso" style="width: 3%;"></div></div>
+                        <span class="materia-porcentaje">3%</span>
+                    </li>
+                    <li>
+                        <span class="materia-icono"></span>
+                        <span class="materia-nombre">#nombre de materia 4</span>
+                        <div class="materia-barra"><div class="materia-progreso" style="width: 4%;"></div></div>
+                        <span class="materia-porcentaje">4%</span>
+                    </li>
+                    <li>
+                        <span class="materia-icono"></span>
+                        <span class="materia-nombre">#nombre de materia 5</span>
+                        <div class="materia-barra"><div class="materia-progreso" style="width:5%;"></div></div>
+                        <span class="materia-porcentaje">5%</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
     </div>
+    <script src="../JavaScripts/inicio.js"></script>
 </body>
 </html>
