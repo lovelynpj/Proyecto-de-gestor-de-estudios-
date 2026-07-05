@@ -16,13 +16,17 @@
 --Informacion:           #3B82F6;
 }
 
-.titulo {
+.material-symbols-outlined {
     color: var(--Text-color);
+}
+
+.titulo {
+    color: var(--Text-color); 
 
 }
 
 .subtitulo {
-    color: var(--Text-secundario);
+    color: var(--Text-color);
 }
 
 .container{

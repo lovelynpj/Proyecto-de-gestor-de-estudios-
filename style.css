@@ -15,7 +15,10 @@
 --Exito:                 #22C55E; /*--Éxito*/		
 --Advertencia:           #FACC15; /*--Advertencia*/		
 --Error:                 #EF4444; /*--Error*/	
---Informacion:           #3B82F6; /*--Información*/	 
+--Informacion:           #3B82F6; /*--Información*/	
+
+
+font-family: "Geist Pixel", sans-serif;
 }
 
 .geist-pixel-uniquifier> {
