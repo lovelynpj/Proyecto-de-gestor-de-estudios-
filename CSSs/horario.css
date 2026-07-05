@@ -1,0 +1,280 @@
+/*paleta de colores  */
+
+:root {
+--bg:                    #071A16; /*--Fondo principal	Verde muy oscuro*/	
+--bg-secundario:         #0B241D; /*--Fondo secundario	Verde oscuro*/	
+--tarjeta:               #102C24; /*--Tarjetas Cards	Verde grisáceo*/	
+--sidebar-color:         #081D18; /*--Sidebar	Verde profundo*/	
+--bordes:                #1D4A3E; /*--Bordes	Verde oscuro*/	
+--Text-color:            #F5F5F5; /*--Texto principal	Blanco*/	
+--Text-secundario:       #A6B3AD; /*--Texto secundario	Gris claro*/	
+--Text-deshabilitado:    #68746F; /*--Texto deshabilitado	Gris oscuro*/	
+--Color-principal:       #FF7A00; /*--Naranja principal*/		
+--hover-naranja:         #FF922E; /*--Naranja hover*/		
+--naranja-oscuro:        #D86400; /*--Naranja oscuro pressed*/		
+--Exito:                 #22C55E; /*--Éxito*/		
+--Advertencia:           #FACC15; /*--Advertencia*/		
+--Error:                 #EF4444; /*--Error*/	
+--Informacion:           #3B82F6; /*--Información*/	 
+}
+/*body*/ 
+body {
+    background-color: var(--bg);
+}
+
+
+
+
+/* Main */ 
+
+.container{
+    display: flex;
+}
+
+.contenido{
+    flex: 1;
+    padding: 30px;
+}
+
+.titulo-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-superior{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* tarjeta 1 */
+
+.tarjeta{
+    width: 180px;
+    height: 80px;
+
+    background: var(--tarjeta);
+    border: 2px solid var(--borde);
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 25px;
+}
+
+.icono-horario-semanal{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 18px;
+    background: var(--Color-principal);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-horario-semanal svg{
+    width: 40px;
+    height: 40px;
+    color: var(--bg);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-tarjeta{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+.texto h2{
+    color: var(--Text-color);
+    font-size: 25px;
+    margin: 6px 0;
+}
+
+.texto p:last-child{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+/* tarjeta 2 */
+
+.tarjeta{
+    width: 180px;
+    height: 80px;
+
+    background: var(--tarjeta);
+    border: 2px solid var(--bordes);
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 25px;
+}
+
+.icono-clases-semanales{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 18px;
+    background: var(--Color-principal);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-clases-semanales svg{
+    width: 40px;
+    height: 40px;
+    color: var(--bg);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-tarjeta{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+.texto h2{
+    color: var(--Text-color);
+    font-size: 25px;
+    margin: 6px 0;
+}
+
+.texto p:last-child{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+/* tarjeta 3 */
+
+.tarjeta{
+    width: 180px;
+    height: 80px;
+
+    background: var(--tarjeta);
+    border: 2px solid var(--bordes);
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 25px;
+}
+
+.icono-clases-proximas{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 18px;
+    background: var(--Color-principal);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-clases-proximas svg{
+    width: 40px;
+    height: 40px;
+    color: var(--bg);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-tarjeta{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+.texto h2{
+    color: var(--Text-color);
+    font-size: 25px;
+    margin: 6px 0;
+}
+
+.texto p:last-child{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+/* tarjeta 4 */
+.tarjeta{
+    width: 180px;
+    height: 80px;
+
+    background: var(--tarjeta);
+    border: 2px solid var(--bordes);
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 25px;
+}
+
+.icono-clases-completadas{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 18px;
+    background: var(--Color-principal);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-clases-completadas svg{
+    width: 40px;
+    height: 40px;
+    color: var(--bg);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-tarjeta{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
+
+.texto h2{
+    color: var(--Text-color);
+    font-size: 25px;
+    margin: 6px 0;
+}
+
+.texto p:last-child{
+    color: var(--Text-secundario);
+    font-size: 15px;
+    margin: 0;
+}
